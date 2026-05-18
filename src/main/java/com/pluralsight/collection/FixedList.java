@@ -7,7 +7,7 @@ public class FixedList<T> {
     private List<T> items;
     private int maxSize;
 
-    public FixedList(T items, int maxSize) {
+    public FixedList(int maxSize) {
         this.items = new ArrayList<>();
         this.maxSize = maxSize;
     }
